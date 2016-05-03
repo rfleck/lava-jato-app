@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB0D94EA1CD51E6D0075FD7C /* DetalhesFaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0D94E91CD51E6D0075FD7C /* DetalhesFaseTableViewController.swift */; };
+		AB0D94ED1CD522C10075FD7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB0D94EB1CD522C10075FD7C /* Main.storyboard */; };
+		AB0D94EF1CD52F1D0075FD7C /* NovaFaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0D94EE1CD52F1D0075FD7C /* NovaFaseTableViewController.swift */; };
+		AB0D94F21CD5412E0075FD7C /* Fase+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0D94F01CD5412E0075FD7C /* Fase+CoreDataProperties.swift */; };
+		AB0D94F31CD5412E0075FD7C /* Fase.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0D94F11CD5412E0075FD7C /* Fase.swift */; };
+		ABCA57DE1CD4F7CE002A2F06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCA57DD1CD4F7CE002A2F06 /* AppDelegate.swift */; };
+		ABCA57E61CD4F7CE002A2F06 /* lava_jato_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ABCA57E41CD4F7CE002A2F06 /* lava_jato_app.xcdatamodeld */; };
+		ABCA57E81CD4F7CE002A2F06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABCA57E71CD4F7CE002A2F06 /* Assets.xcassets */; };
+		ABCA57EB1CD4F7CE002A2F06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABCA57E91CD4F7CE002A2F06 /* LaunchScreen.storyboard */; };
+		ABCA57F61CD4FC36002A2F06 /* ListaFasesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCA57F51CD4FC36002A2F06 /* ListaFasesTableViewController.swift */; };
+		ABCA57FB1CD4FDE5002A2F06 /* FaseDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCA57FA1CD4FDE5002A2F06 /* FaseDAO.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB0D94E91CD51E6D0075FD7C /* DetalhesFaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetalhesFaseTableViewController.swift; sourceTree = "<group>"; };
+		AB0D94EC1CD522C10075FD7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB0D94EE1CD52F1D0075FD7C /* NovaFaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NovaFaseTableViewController.swift; sourceTree = "<group>"; };
+		AB0D94F01CD5412E0075FD7C /* Fase+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Fase+CoreDataProperties.swift"; path = "../Fase+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		AB0D94F11CD5412E0075FD7C /* Fase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Fase.swift; path = ../Fase.swift; sourceTree = "<group>"; };
+		ABCA57DA1CD4F7CE002A2F06 /* lava-jato-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lava-jato-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABCA57DD1CD4F7CE002A2F06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ABCA57E51CD4F7CE002A2F06 /* lava_jato_app.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = lava_jato_app.xcdatamodel; sourceTree = "<group>"; };
+		ABCA57E71CD4F7CE002A2F06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABCA57EA1CD4F7CE002A2F06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABCA57EC1CD4F7CE002A2F06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABCA57F51CD4FC36002A2F06 /* ListaFasesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaFasesTableViewController.swift; sourceTree = "<group>"; };
+		ABCA57FA1CD4FDE5002A2F06 /* FaseDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaseDAO.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABCA57D71CD4F7CE002A2F06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABCA57D11CD4F7CE002A2F06 = {
+			isa = PBXGroup;
+			children = (
+				ABCA57DC1CD4F7CE002A2F06 /* lava-jato-app */,
+				ABCA57DB1CD4F7CE002A2F06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABCA57DB1CD4F7CE002A2F06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABCA57DA1CD4F7CE002A2F06 /* lava-jato-app.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABCA57DC1CD4F7CE002A2F06 /* lava-jato-app */ = {
+			isa = PBXGroup;
+			children = (
+				ABCA57DD1CD4F7CE002A2F06 /* AppDelegate.swift */,
+				ABCA57E71CD4F7CE002A2F06 /* Assets.xcassets */,
+				ABCA57EC1CD4F7CE002A2F06 /* Info.plist */,
+				ABCA57E41CD4F7CE002A2F06 /* lava_jato_app.xcdatamodeld */,
+				ABCA57F41CD4FB73002A2F06 /* control */,
+				ABCA57F91CD4FDC7002A2F06 /* dao */,
+				ABCA57F21CD4FB62002A2F06 /* model */,
+				ABCA57F31CD4FB6C002A2F06 /* view */,
+			);
+			path = "lava-jato-app";
+			sourceTree = "<group>";
+		};
+		ABCA57F21CD4FB62002A2F06 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				AB0D94F11CD5412E0075FD7C /* Fase.swift */,
+				AB0D94F01CD5412E0075FD7C /* Fase+CoreDataProperties.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		ABCA57F31CD4FB6C002A2F06 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				ABCA57E91CD4F7CE002A2F06 /* LaunchScreen.storyboard */,
+				AB0D94EB1CD522C10075FD7C /* Main.storyboard */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		ABCA57F41CD4FB73002A2F06 /* control */ = {
+			isa = PBXGroup;
+			children = (
+				AB0D94E91CD51E6D0075FD7C /* DetalhesFaseTableViewController.swift */,
+				ABCA57F51CD4FC36002A2F06 /* ListaFasesTableViewController.swift */,
+				AB0D94EE1CD52F1D0075FD7C /* NovaFaseTableViewController.swift */,
+			);
+			name = control;
+			sourceTree = "<group>";
+		};
+		ABCA57F91CD4FDC7002A2F06 /* dao */ = {
+			isa = PBXGroup;
+			children = (
+				ABCA57FA1CD4FDE5002A2F06 /* FaseDAO.swift */,
+			);
+			name = dao;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABCA57D91CD4F7CE002A2F06 /* lava-jato-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABCA57EF1CD4F7CE002A2F06 /* Build configuration list for PBXNativeTarget "lava-jato-app" */;
+			buildPhases = (
+				ABCA57D61CD4F7CE002A2F06 /* Sources */,
+				ABCA57D71CD4F7CE002A2F06 /* Frameworks */,
+				ABCA57D81CD4F7CE002A2F06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "lava-jato-app";
+			productName = "lava-jato-app";
+			productReference = ABCA57DA1CD4F7CE002A2F06 /* lava-jato-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABCA57D21CD4F7CE002A2F06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Roberson Fleck";
+				TargetAttributes = {
+					ABCA57D91CD4F7CE002A2F06 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 873ED8P255;
+					};
+				};
+			};
+			buildConfigurationList = ABCA57D51CD4F7CE002A2F06 /* Build configuration list for PBXProject "lava-jato-app" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABCA57D11CD4F7CE002A2F06;
+			productRefGroup = ABCA57DB1CD4F7CE002A2F06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABCA57D91CD4F7CE002A2F06 /* lava-jato-app */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABCA57D81CD4F7CE002A2F06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB0D94ED1CD522C10075FD7C /* Main.storyboard in Resources */,
+				ABCA57EB1CD4F7CE002A2F06 /* LaunchScreen.storyboard in Resources */,
+				ABCA57E81CD4F7CE002A2F06 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABCA57D61CD4F7CE002A2F06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABCA57FB1CD4FDE5002A2F06 /* FaseDAO.swift in Sources */,
+				AB0D94EF1CD52F1D0075FD7C /* NovaFaseTableViewController.swift in Sources */,
+				AB0D94F21CD5412E0075FD7C /* Fase+CoreDataProperties.swift in Sources */,
+				ABCA57F61CD4FC36002A2F06 /* ListaFasesTableViewController.swift in Sources */,
+				ABCA57DE1CD4F7CE002A2F06 /* AppDelegate.swift in Sources */,
+				AB0D94F31CD5412E0075FD7C /* Fase.swift in Sources */,
+				AB0D94EA1CD51E6D0075FD7C /* DetalhesFaseTableViewController.swift in Sources */,
+				ABCA57E61CD4F7CE002A2F06 /* lava_jato_app.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB0D94EB1CD522C10075FD7C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB0D94EC1CD522C10075FD7C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABCA57E91CD4F7CE002A2F06 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABCA57EA1CD4F7CE002A2F06 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABCA57ED1CD4F7CE002A2F06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABCA57EE1CD4F7CE002A2F06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABCA57F01CD4F7CE002A2F06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "lava-jato-app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fleck.lava-jato-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ABCA57F11CD4F7CE002A2F06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "lava-jato-app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fleck.lava-jato-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABCA57D51CD4F7CE002A2F06 /* Build configuration list for PBXProject "lava-jato-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABCA57ED1CD4F7CE002A2F06 /* Debug */,
+				ABCA57EE1CD4F7CE002A2F06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABCA57EF1CD4F7CE002A2F06 /* Build configuration list for PBXNativeTarget "lava-jato-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABCA57F01CD4F7CE002A2F06 /* Debug */,
+				ABCA57F11CD4F7CE002A2F06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ABCA57E41CD4F7CE002A2F06 /* lava_jato_app.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ABCA57E51CD4F7CE002A2F06 /* lava_jato_app.xcdatamodel */,
+			);
+			currentVersion = ABCA57E51CD4F7CE002A2F06 /* lava_jato_app.xcdatamodel */;
+			path = lava_jato_app.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ABCA57D21CD4F7CE002A2F06 /* Project object */;
+}
