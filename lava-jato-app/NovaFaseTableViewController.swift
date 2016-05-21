@@ -17,13 +17,27 @@ class NovaFaseTableViewController: UITableViewController {
     @IBOutlet weak var descTextField: UITextField!
     
     var delegate:ListaFasesTableViewController!
+    var faseRepository:FaseRepository!
+    var faseEditar:Fase!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.numeroTextField.text = "3"
-        self.codinomeTextField.text = "Fase 3"
-        self.anoTextField.text = "2017"
-        self.descTextField.text = "Desc Fase 3"
+        self.faseRepository = FaseRepository()
+        
+        if faseEditar == nil {
+            self.title = "Nova Fase"
+            self.numeroTextField.text = "10"
+            self.codinomeTextField.text = "Nova Fase"
+            self.anoTextField.text = "2020"
+            self.descTextField.text = "Desc Nova Fase"
+        }
+        else {
+            self.title = "Editar Fase"
+            self.numeroTextField.text = String(faseEditar.numero!)
+            self.codinomeTextField.text = faseEditar.codinome!
+            self.anoTextField.text = String(faseEditar.anoFase!)
+            self.descTextField.text = faseEditar.descricao!
+        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -39,26 +53,25 @@ class NovaFaseTableViewController: UITableViewController {
     }
 
     @IBAction func actionSalvar(sender: AnyObject) {
-        let context = (UIApplication.sharedApplication().delegate as!AppDelegate).managedObjectContext
-        let novaFase:Fase = NSEntityDescription.insertNewObjectForEntityForName("Fase", inManagedObjectContext: context) as! Fase
-        
-        novaFase.numero = Int(self.numeroTextField.text!)
-        novaFase.codinome = self.codinomeTextField.text!
-        novaFase.anoFase = Int(self.anoTextField.text!)
-        novaFase.descricao = self.descTextField.text!
-        
-        do {
-            try context.save()
-        } catch _ {
+        if self.faseEditar == nil {
+            let novaFase:Fase = self.faseRepository.novaInstancia()
             
+            novaFase.numero = Int(self.numeroTextField.text!)
+            novaFase.codinome = self.codinomeTextField.text!
+            novaFase.anoFase = Int(self.anoTextField.text!)
+            novaFase.descricao = self.descTextField.text!
+        } else {
+            self.faseEditar.numero = Int(self.numeroTextField.text!)
+            self.faseEditar.codinome = self.codinomeTextField.text!
+            self.faseEditar.anoFase = Int(self.anoTextField.text!)
+            self.faseEditar.descricao = self.descTextField.text!
         }
+        
+        self.faseRepository.salvar()
         
         // 2 - Fechar a Tela
         if let navigation = self.navigationController {
             navigation.popViewControllerAnimated(true)
         }
-        
-        // 3 - Avisar a lista que uma nova fase foi adicionada
-        delegate.novaFaseAdicionada(novaFase)
     }
 }

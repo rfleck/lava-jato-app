@@ -21,10 +21,10 @@ class DetalhesFaseTableViewController: UITableViewController {
         super.viewDidLoad()
         
         if let fase = self.fase{
-            self.numeroLabel.text = "Fase: \(String(fase.numero))"
-            self.codinomeLabel.text = "Codinome: \(fase.codinome)"
-            self.anoLabel.text = "Ano: \(String(fase.anoFase))"
-            self.descLabel.text = "Detalhes: \(fase.descricao)"
+            self.numeroLabel.text = "Fase: \(String(fase.numero!))"
+            self.codinomeLabel.text = "Codinome: \(fase.codinome!)"
+            self.anoLabel.text = "Ano: \(String(fase.anoFase!))"
+            self.descLabel.text = "Detalhes: \(fase.descricao!)"
         }
     }
     

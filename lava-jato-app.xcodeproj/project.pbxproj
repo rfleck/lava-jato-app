@@ -12,12 +12,15 @@
 		AB0D94EF1CD52F1D0075FD7C /* NovaFaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0D94EE1CD52F1D0075FD7C /* NovaFaseTableViewController.swift */; };
 		AB0D94F21CD5412E0075FD7C /* Fase+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0D94F01CD5412E0075FD7C /* Fase+CoreDataProperties.swift */; };
 		AB0D94F31CD5412E0075FD7C /* Fase.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0D94F11CD5412E0075FD7C /* Fase.swift */; };
+		AB15D5B51CDE3D4D00C6C3AA /* Envolvido+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB15D5B31CDE3D4D00C6C3AA /* Envolvido+CoreDataProperties.swift */; };
+		AB15D5B61CDE3D4D00C6C3AA /* Envolvido.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB15D5B41CDE3D4D00C6C3AA /* Envolvido.swift */; };
+		AB15D5B81CDE3DB600C6C3AA /* EnvolvidoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB15D5B71CDE3DB600C6C3AA /* EnvolvidoRepository.swift */; };
 		ABCA57DE1CD4F7CE002A2F06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCA57DD1CD4F7CE002A2F06 /* AppDelegate.swift */; };
 		ABCA57E61CD4F7CE002A2F06 /* lava_jato_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ABCA57E41CD4F7CE002A2F06 /* lava_jato_app.xcdatamodeld */; };
 		ABCA57E81CD4F7CE002A2F06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABCA57E71CD4F7CE002A2F06 /* Assets.xcassets */; };
 		ABCA57EB1CD4F7CE002A2F06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABCA57E91CD4F7CE002A2F06 /* LaunchScreen.storyboard */; };
 		ABCA57F61CD4FC36002A2F06 /* ListaFasesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCA57F51CD4FC36002A2F06 /* ListaFasesTableViewController.swift */; };
-		ABCA57FB1CD4FDE5002A2F06 /* FaseDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCA57FA1CD4FDE5002A2F06 /* FaseDAO.swift */; };
+		ABCA57FB1CD4FDE5002A2F06 /* FaseRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCA57FA1CD4FDE5002A2F06 /* FaseRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		AB0D94EE1CD52F1D0075FD7C /* NovaFaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NovaFaseTableViewController.swift; sourceTree = "<group>"; };
 		AB0D94F01CD5412E0075FD7C /* Fase+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Fase+CoreDataProperties.swift"; path = "../Fase+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		AB0D94F11CD5412E0075FD7C /* Fase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Fase.swift; path = ../Fase.swift; sourceTree = "<group>"; };
+		AB15D5B31CDE3D4D00C6C3AA /* Envolvido+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Envolvido+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		AB15D5B41CDE3D4D00C6C3AA /* Envolvido.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Envolvido.swift; sourceTree = "<group>"; };
+		AB15D5B71CDE3DB600C6C3AA /* EnvolvidoRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnvolvidoRepository.swift; sourceTree = "<group>"; };
 		ABCA57DA1CD4F7CE002A2F06 /* lava-jato-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lava-jato-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABCA57DD1CD4F7CE002A2F06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABCA57E51CD4F7CE002A2F06 /* lava_jato_app.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = lava_jato_app.xcdatamodel; sourceTree = "<group>"; };
@@ -33,7 +39,7 @@
 		ABCA57EA1CD4F7CE002A2F06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABCA57EC1CD4F7CE002A2F06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABCA57F51CD4FC36002A2F06 /* ListaFasesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaFasesTableViewController.swift; sourceTree = "<group>"; };
-		ABCA57FA1CD4FDE5002A2F06 /* FaseDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaseDAO.swift; sourceTree = "<group>"; };
+		ABCA57FA1CD4FDE5002A2F06 /* FaseRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaseRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,9 +75,8 @@
 				ABCA57DD1CD4F7CE002A2F06 /* AppDelegate.swift */,
 				ABCA57E71CD4F7CE002A2F06 /* Assets.xcassets */,
 				ABCA57EC1CD4F7CE002A2F06 /* Info.plist */,
-				ABCA57E41CD4F7CE002A2F06 /* lava_jato_app.xcdatamodeld */,
 				ABCA57F41CD4FB73002A2F06 /* control */,
-				ABCA57F91CD4FDC7002A2F06 /* dao */,
+				ABCA57F91CD4FDC7002A2F06 /* repository */,
 				ABCA57F21CD4FB62002A2F06 /* model */,
 				ABCA57F31CD4FB6C002A2F06 /* view */,
 			);
@@ -81,8 +86,11 @@
 		ABCA57F21CD4FB62002A2F06 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				ABCA57E41CD4F7CE002A2F06 /* lava_jato_app.xcdatamodeld */,
 				AB0D94F11CD5412E0075FD7C /* Fase.swift */,
 				AB0D94F01CD5412E0075FD7C /* Fase+CoreDataProperties.swift */,
+				AB15D5B31CDE3D4D00C6C3AA /* Envolvido+CoreDataProperties.swift */,
+				AB15D5B41CDE3D4D00C6C3AA /* Envolvido.swift */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -106,12 +114,13 @@
 			name = control;
 			sourceTree = "<group>";
 		};
-		ABCA57F91CD4FDC7002A2F06 /* dao */ = {
+		ABCA57F91CD4FDC7002A2F06 /* repository */ = {
 			isa = PBXGroup;
 			children = (
-				ABCA57FA1CD4FDE5002A2F06 /* FaseDAO.swift */,
+				ABCA57FA1CD4FDE5002A2F06 /* FaseRepository.swift */,
+				AB15D5B71CDE3DB600C6C3AA /* EnvolvidoRepository.swift */,
 			);
-			name = dao;
+			name = repository;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,13 +195,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABCA57FB1CD4FDE5002A2F06 /* FaseDAO.swift in Sources */,
+				ABCA57FB1CD4FDE5002A2F06 /* FaseRepository.swift in Sources */,
 				AB0D94EF1CD52F1D0075FD7C /* NovaFaseTableViewController.swift in Sources */,
 				AB0D94F21CD5412E0075FD7C /* Fase+CoreDataProperties.swift in Sources */,
 				ABCA57F61CD4FC36002A2F06 /* ListaFasesTableViewController.swift in Sources */,
 				ABCA57DE1CD4F7CE002A2F06 /* AppDelegate.swift in Sources */,
 				AB0D94F31CD5412E0075FD7C /* Fase.swift in Sources */,
+				AB15D5B61CDE3D4D00C6C3AA /* Envolvido.swift in Sources */,
+				AB15D5B51CDE3D4D00C6C3AA /* Envolvido+CoreDataProperties.swift in Sources */,
 				AB0D94EA1CD51E6D0075FD7C /* DetalhesFaseTableViewController.swift in Sources */,
+				AB15D5B81CDE3DB600C6C3AA /* EnvolvidoRepository.swift in Sources */,
 				ABCA57E61CD4F7CE002A2F06 /* lava_jato_app.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
